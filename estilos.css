@@ -29,6 +29,7 @@ body{
 .nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     color: white;
 }
 
@@ -147,6 +148,7 @@ body{
     }
 
     @media screen and (max-width :850px) {
+        
         #tecnologies{
             display: flex;
             flex-direction:column;
@@ -180,4 +182,30 @@ body{
             margin-right: 1em;
         }
         
+    }
+
+    @media screen and (max-width:450px){
+        .header{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1em;
+
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2em;
+        }
+        .nav a {
+            margin-bottom: 0.5em;
+        }
+        .icono{
+            margin-bottom: 2em;
+        }
+        .mainContent{
+            margin-bottom: 20em;
+        }
+        .mainContent p {
+            width: 15em;
+        }
     }
