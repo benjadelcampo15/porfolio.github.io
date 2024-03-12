@@ -1,5 +1,4 @@
 
-console.log("hola");
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll('a[href^="#"]');
     
